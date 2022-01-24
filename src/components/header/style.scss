@@ -1,0 +1,53 @@
+.logo {
+	font-size: 35px;
+	font-weight: 900;
+}
+
+.header {
+	box-shadow: 0 1px 5px 0 rgb(0 0 0 / 20%);
+	padding: 10px 0;
+	&__wrap {
+		max-width: 1200px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0 15px;
+	}
+
+	&__ava {
+
+		img {
+			height: 35px;
+			border-radius: 50%;
+			width: 35px;
+			object-fit: contain;
+		}
+	}
+
+	&__def {
+		height: 35px;
+		border-radius: 50%;
+		width: 35px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: #fff;
+		background: rebeccapurple;
+	}
+
+	&__nav {
+		display: flex;
+	}
+
+	&__cart {
+		margin-left: 20px;
+		height: 35px;
+		border-radius: 50%;
+		width: 35px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: #d7d7d7;
+	}
+}
