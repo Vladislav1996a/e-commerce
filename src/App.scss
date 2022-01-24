@@ -1,0 +1,24 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  &__wrap {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    margin-top: 65px;
+  }
+  &__left {
+    width: 25%;
+    height: 50px;
+    background: rebeccapurple;
+  }
+  &__right {
+    width: 75%;
+  }
+}
+
