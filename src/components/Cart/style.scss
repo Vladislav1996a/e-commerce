@@ -12,5 +12,39 @@
 		font-size: 15px;
 		color: #555555;
 		font-weight: 500;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	&__price {
+		margin-top: 10px;
+		font-size: 15px;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	&__button {
+		margin-top: 15px;
+		padding: 5px 15px;
+		border: 0;
+		color: #fff;
+		border-radius: 30px;
+		background: #ff5337;
+	}
+
+	&__colors {
+		margin-top: 15px;
+	}
+}
+
+.size {
+	display: flex;
+	margin-top: 10px;
+	&__item {
+		margin: 0 15px;
+		padding: 5px 10px;
+		background: #ccc;
+
+		&:first-child {
+			margin-left: 0;
+		}
 	}
 }

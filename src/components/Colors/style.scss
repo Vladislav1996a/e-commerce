@@ -1,0 +1,9 @@
+.color {
+    display: flex;
+    &__item {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background: #cccccc;
+    }
+}
